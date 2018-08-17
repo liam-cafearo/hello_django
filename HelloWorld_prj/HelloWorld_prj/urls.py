@@ -19,5 +19,5 @@ from HelloWorld_app import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^stuff$', views.say_hello),
+    url(r'^$', views.say_hello),
 ]
